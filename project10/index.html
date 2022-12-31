@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 630px;
+            width: 500px;
+            border: 1px solid;
+            margin: auto;
+            border-radius: 10px;
+            background-color: aqua;
+        }
+       
+        img{
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+        }
+        #text{
+           
+           
+            height: 60px;
+            text-align: center;
+            
+        }
+
+      #text>h1{
+        margin: 0%;
+       }
+      h4{
+        margin: 0%;
+      }
+     
+        form{
+            margin: 0%;
+        }
+        table,tr,th{
+            text-align: left;
+        }
+        #foot{
+            margin: auto;
+            margin-top:10%;
+            border: 1px solid ;
+            border-radius: 20px;
+            height: 35px;
+            width: 175px;
+            text-align: center;
+
+
+            
+            background-color:wheat;
+            
+        }
+        #foot>a{
+            text-decoration: none;
+           text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="header">
+            <img src="pizza1.jpg">
+        </div>
+        <div id="text">
+            <h1>Pizza Form</h1>
+        </div>
+        <div id="f1">
+            <form>
+                <fieldset class="wd">  
+                    <legend><h4>Personal Info:</h4></legend>  
+                <table>
+                    <tr>
+                        <th>First Name:</th>
+                        <th><input type="text"></th>
+                    </tr>
+                    <tr>
+                        <th>Last Name:</th>
+                        <th><input type="text"></th>
+                    </tr>
+                    <tr>
+                        <th>Phone:</th>
+                        <th><input type="tel" max="10"></th>
+                    </tr>
+                </table>
+                </fieldset>
+            </form>
+        </div>
+        <div id="f2">
+            <fieldset class="wd">  
+                <legend><h4>Pizza:</h4></legend>  
+            <form id="ff">
+                    <h4>Size:</h4>
+                    <input type="radio" name="size" value="Small"><b>small</b><br>
+                    <input type="radio" name="size" value="Small">Medium<br>
+                    <input type="radio" name="size" value="Small">Large<br>
+                    <br>
+                    <h4>Toppings(Check all type apply):</h4>
+                    <input type="checkbox" value="extra">extra
+                    <input type="checkbox" value="extra">extra
+                    <input type="checkbox" value="extra">extra
+                    <input type="checkbox" value="extra">extra
+                    <input type="checkbox" value="extra">extra<br>
+                    <input type="checkbox" value="extra">extra
+                    <input type="checkbox" value="extra">extra
+                    <input type="checkbox" value="extra">extra
+                    <input type="checkbox" value="extra">extra
+<br>
+<input type="checkbox" value="extra">extra
+<input type="checkbox" value="extra">extra
+<input type="checkbox" value="extra">extra
+<input type="checkbox" value="extra">extra
+
+                
+               
+            </form>
+            </fieldset>
+        </div>
+        <div id="foot">
+           <a href="#"><h4>Enter My Information</h4></a>
+        </div>
+    </div>
+</body>
+</html>
