@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        #parent{
+           text-align: center;
+            margin: auto;
+            margin-top: 100px;
+            height: 400px;
+            width: 700px;
+            padding-top: 10px;
+            background-color: white;
+        }
+        #child{
+           
+            margin: auto;
+            margin-top: 50px;
+            height: 250px;
+            width: 600px;
+        }
+        h2{
+            background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+    -webkit-background-clip: ;
+	-webkit-text-fill-color: transparent;
+        }
+        table{
+            
+            height: 250px;
+            width: 600px;
+        }
+
+        input[type=text] {
+  width: 80%;
+
+
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+ input[type=submit] {
+  width: 80%;
+  height: 35px;
+
+
+  box-sizing: border-box;
+  border: 1px solid;
+  
+}
+#col{
+    width: 90%;
+}
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <h2>Responsive Contact us Form</h2>
+        <div id="child">
+        <table>
+            <form>
+                <tr>
+                    <th><input type="text" placeholder="First Name"></th>
+                    <th><input type="text" placeholder="Last Name"></th>
+                </tr>
+                <tr>
+                    <th><input type="text" placeholder="Email Address"></th>
+                    <th><input type="text" placeholder="Website Name"></th>
+                </tr>
+                <tr>
+                    <th colspan="2"><input type="text"  id="col" placeholder="Write Your Message"></th>
+                    
+                </tr>
+                <tr>
+                    <th><input type="submit"></th>
+                    <th></th>
+                </tr>
+            </form>
+        </table>
+        </div>
+    </div>
+</body>
+</html>
