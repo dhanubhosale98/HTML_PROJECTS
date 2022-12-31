@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 600px;
+            width: 500px;
+            border:1px solid springgreen;
+            margin: auto;
+            border-radius: 10px;
+            background-color: springgreen ;
+        }
+        #child{
+            border-radius: 10px;
+            height: 450px;
+            width: 400px;
+            border:1px solid white;
+            margin: auto;
+            margin-top: 70px;
+            background-color: white;
+        }
+        #inner{
+            height: 400px;
+            width: 300px;
+            
+            margin: auto;
+        }
+        #inner1{
+            height: 200px;
+            width: 300px;
+          
+            margin: auto;
+           margin-top: 20px;
+          
+        }
+        h1{
+         padding-top: 30px;
+            text-align: center;
+        }
+        p{
+           
+            text-align: center;
+        }
+        #a{
+            height: 50px;
+            width: 100px;
+            border: 1px solid;
+            border-radius: 25px;
+            text-align: center;
+          
+            background-color: green;
+            margin: auto;
+            
+        }
+        a{
+     
+           font-size:larger;
+           padding: 10px;
+           color: aliceblue;
+           text-decoration: none;
+           margin-top:2px;
+           
+        }
+        th,tr{
+          
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child">
+            <div id="inner">
+            <h1>Sign Up</h1>
+            <p>please fillin this form to create an account!</p>
+            <hr>
+
+            <form>
+                <div id="inner1">
+                <table>
+                    <tr>
+                        <th><i style="font-size:24px" class="fa">&#xf007;</i></th>
+                        <th><input type="text" placeholder="USERNAME"></th>
+                    </tr>
+                    <tr>
+                        <th><i style="font-size:24px" class="fa">&#xf0e0;</i></th>
+                        <th><input type="text" placeholder="E-M@IL"></th>
+                    </tr>
+                    <tr>
+                        <th><i style="font-size:24px" class="fa">&#xf13e;</i></th>
+                        <th><input type="text" placeholder="PASSWORD"></th>
+                    </tr>
+                    <tr>
+                        <th><i style="font-size:24px;" class="fa">&#xf00c;</i></th>
+                        <th><input type="text" placeholder="CONFIRM PASSWORD"></th>
+                    </tr>
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <th>I accept the Terms of Use & Privacy Policy</th>
+                    </tr>
+                    
+                   
+                </table>
+                </div>
+                <div id="a">
+                    <a href="#">Sign Up</a>
+                </div>
+
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
