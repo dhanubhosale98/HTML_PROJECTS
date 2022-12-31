@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(./img3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #parent {
+            margin: auto;
+          margin-top: 90px;
+            height: 500px;
+            width: 700px;
+            display: flex;
+            font-weight: 500 ;
+
+            box-sizing: content-box;
+        }
+
+        #child1 {
+           
+            height: 500px;
+            background-color: blue;
+            width: 300px;
+        }
+
+        #child2 {
+          background-color: white;
+            height: 500px;
+            width: 400px;
+        }
+        #form{
+            height: 400px;
+            width: 350px;
+          
+            margin: auto ;
+            margin-top: 10px;
+        }
+        table {
+            height: 300px;
+            width: 350px;
+            margin-top: 20px;
+        }
+
+        input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+input[type=submit]{
+    width: 100%;
+    
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    cursor: pointer;
+}
+#button1{
+    background-color: orangered;
+    color: white;
+    border: 0px;
+}
+#button2{
+    background-color:white;
+    color:blue;
+    box-shadow:1px 1px 1px 1px gray;
+}
+   
+#form1{
+    height: 30px;
+    width: 350px;
+   
+    margin: auto;
+    margin-top: 50px
+}
+#c1{
+    height: 200px;
+    width: 230px;
+    margin: auto;
+   
+}
+#a1{
+    text-decoration: none;
+  margin: 60px;
+  padding-top:100px;
+}
+#a2{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+  margin-top: 10px;
+  padding-top:1px;
+}
+h5{
+    
+   margin: 4px;
+   color: white;
+}
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="child1" class="c1c2">
+            <div id="c1"> 
+                <a id="a2" href=""><h2>Login</h2></a>
+                <h5>Get Access to your Orders</h5>
+                <h5>Wishlist and </h5>
+                <h5>recomondation</h5>
+            </div>
+        </div>
+        <div id="child2" class="c1c2">
+            <div id="form">
+                <form>
+                    <table>
+                        <tr>
+                            <th><input type="text" placeholder="Enter Email/Mobile Number"> </td>
+                        </tr>
+                        <tr>
+                            <th><input type="password" placeholder="Enter Password"></td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <button id="button1" value="Login">Login</button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                OR
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <button id="button2" value="Request OTP">Request OTP</button>
+                            </th>
+                        </tr>
+
+                    </table>
+                </form>
+            </div>
+            <div id="form1">
+                
+                <a id="a1" href="#">New to Flipcart? Create an account</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
